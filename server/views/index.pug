@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Software | #{title}
+
+    link(el="apple-touch-icon", sizes="180x180", href="/apple-touch-icon.png")
+    link(rel="icon", type="image/png", sizes="32x32", href="/favicon-32x32.png")
+    link(rel="icon", type="image/png", sizes="16x16", href="/favicon-16x16.png")
+    link(rel="manifest", href="/site.webmanifest")
+    link(rel="preconnect", href="https://fonts.gstatic.com")
+    link(href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&family=Source+Code+Pro&display=swap", rel="stylesheet")
+
+    link(rel="stylesheet", href="/styles/styles.css")
+  body
+    .wrapper
+      .wrapper-content
+        h1 This is the final Workshop for Software Eng. class
+        p By:
+          a(href=authorUrl, target="__blank")= author
+        p
+          code Version: #{version}

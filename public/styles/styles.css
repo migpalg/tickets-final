@@ -1,0 +1,37 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+code {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1e1e1e;
+}
+
+.wrapper-content {
+  width: 100%;
+  color: #e1e1e1;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: cornflowerblue;
+}

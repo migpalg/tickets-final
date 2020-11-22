@@ -1,0 +1,30 @@
+{
+  "sourceMaps": "inline",
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "targets": {
+          "esmodules": true
+        }
+      }
+    ],
+    "@babel/typescript",
+    "minify"
+  ],
+  "plugins": [
+    "@babel/proposal-class-properties",
+    "@babel/proposal-object-rest-spread",
+    [
+      "module-resolver",
+      {
+        "root": ["."],
+        "alias": {
+          "@app": "./server",
+          "@public": "./public",
+          "@package": "./package.json"
+        }
+      }
+    ]
+  ]
+}
